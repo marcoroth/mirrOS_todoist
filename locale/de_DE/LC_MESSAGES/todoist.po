@@ -1,0 +1,75 @@
+# mirr.OS Todoist Module v1.0.0
+# Copyright (C) 2016
+# Marco Roth <mr@glancr.de>, 2016
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS Todoist Module V1.0\n"
+"POT-Creation-Date: 2016-05-07 11:02+0200\n"
+"PO-Revision-Date: 2017-05-17 00:20+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: Marco Roth <mr@glancr.de>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+msgid "todoist_title"
+msgstr "Todoist"
+
+msgid "todoist_description"
+msgstr "Zeigt deine Aufgaben einer Todoist auf deinem Spiegel an"
+
+msgid "todoist_select_list"
+msgstr "Bitte Liste auswählen:"
+
+msgid "todoist_include_completed"
+msgstr "Zeige abgeschlossene Aufgaben:"
+
+msgid "todoist_include_completed_yes"
+msgstr "Ja"
+
+msgid "todoist_include_completed_no"
+msgstr "Nein"
+
+msgid "todoist_more_tasks"
+msgstr "weitere Aufgaben"
+
+msgid "todoist_client_id"
+msgstr "Todoist Client ID"
+
+msgid "todoist_access_token"
+msgstr "Todoist Access Token"
+
+msgid "todoist_get_keys"
+msgstr "Auf dieser Seite kannst du deinen Schlüssel finden (Settings > Integrations > API token):"
+
+msgid "todoist_sort"
+msgstr "Sortieren nach:"
+
+msgid "todoist_sort_alphabetical"
+msgstr "A-Z (nach Titel)"
+
+msgid "todoist_sort_alphabetical_reverse"
+msgstr "Z-A (nach Titel)"
+
+msgid "todoist_sort_oldest"
+msgstr "Älteste-Neuste"
+
+msgid "todoist_sort_newest"
+msgstr "Neuste-Älteste"
+
+msgid "todoist_sort_priority"
+msgstr "Nach Priorität (1-4)"
+
+msgid "todoist_max_tasks"
+msgstr "Anzahl Aufgaben anzeigen"
+
+msgid "todoist_max_tasks_completed"
+msgstr "Anzahl der letzten abgeschlossenen Aufgaben"
+
+msgid "todoist_save"
+msgstr "Speichern"

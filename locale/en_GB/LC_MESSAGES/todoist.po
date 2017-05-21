@@ -1,0 +1,75 @@
+# mirr.OS Todoist Module v1.0.0
+# Copyright (C) 2016
+# Marco Roth <mr@glancr.de>, 2016
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS Todoist Module V1.0\n"
+"POT-Creation-Date: 2016-05-07 11:02+0200\n"
+"PO-Revision-Date: 2017-05-17 00:20+0200\n"
+"Last-Translator: Marco Roth <mr@glancr.de>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "todoist_title"
+msgstr "Todoist"
+
+msgid "todoist_description"
+msgstr "This module shows you your tasks from todoist"
+
+msgid "todoist_select_list"
+msgstr "Select your todoist:"
+
+msgid "todoist_include_completed"
+msgstr "Show completed tasks:"
+
+msgid "todoist_include_completed_yes"
+msgstr "Yes"
+
+msgid "todoist_include_completed_no"
+msgstr "No"
+
+msgid "todoist_more_tasks"
+msgstr "other tasks"
+
+msgid "todoist_client_id"
+msgstr "Todoist Client ID"
+
+msgid "todoist_access_token"
+msgstr "Todoist Access Token"
+
+msgid "todoist_get_keys"
+msgstr "You can find you key here (Settings > Integrations > API token):"
+
+msgid "todoist_sort"
+msgstr "Sort by:"
+
+msgid "todoist_sort_alphabetical"
+msgstr "sort alphabetically"
+
+msgid "todoist_sort_alphabetical_reverse"
+msgstr "sort alphabetically reversed"
+
+msgid "todoist_sort_oldest"
+msgstr "sort by creation date (oldest first)"
+
+msgid "todoist_sort_newest"
+msgstr "sort by creation date (newest first)"
+
+msgid "todoist_sort_priority"
+msgstr "sort by priority (1-4)"
+
+msgid "todoist_max_tasks"
+msgstr "max amount of tasks"
+
+msgid "todoist_max_tasks_completed"
+msgstr "amount of completed tasks"
+
+msgid "todoist_save"
+msgstr "Save Settings"

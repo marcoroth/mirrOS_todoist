@@ -1,0 +1,18 @@
+#todoist_list {
+	font-size: 10pt;
+	margin-left: 10px;
+}
+
+#todoist_table {
+	padding-top: 0px;
+}
+
+#todoist_table td {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+}
+
+#todoist_table i {
+	padding-right: 10px;
+}
