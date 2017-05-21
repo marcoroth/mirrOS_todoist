@@ -3,6 +3,7 @@ var todoist_project;
 var todoist_project_name;
 var todoist_max_tasks;
 var todoist_max_tasks_completed;
+var todoist_icons;
 
 $(document).ready(function () {
 	todoist_api_token = "<?php echo getConfigValue('todoist_api_token'); ?>";
@@ -11,6 +12,7 @@ $(document).ready(function () {
 	todoist_sort = "<?php echo getConfigValue('todoist_sort'); ?>"
 	todoist_max_tasks = parseInt("<?php echo getConfigValue('todoist_max_tasks'); ?>")
 	todoist_max_tasks_completed = parseInt("<?php echo getConfigValue('todoist_max_tasks_completed'); ?>")
+	todoist_icons = "<?php echo getConfigValue('todoist_icons'); ?>"
 	reloadTodoist();
 });
 
@@ -40,12 +42,21 @@ console.log(data.items)
 			data.items.sort(sort_by('priority', true));
 		}
 
+
+		if (todoist_icons == "new") {
+			done_icon = "fa fa-check";
+			open_icon = "fa fa-circle";
+		} else {
+			done_icon = "fa fa-check-square-o";
+			open_icon = "fa fa-square-o";
+		}
+
     i = 0;
 		$.each(data.items, function(index, el) {
 
 			if (i < todoist_max_tasks) {
 				$("#todoist_table").append("<tr></tr>");
-				if (el.is_archived == 1){ icon = "fa fa-check-square-o"; } else { icon = "fa fa-square-o";	}
+				if (el.is_archived == 1){ icon = done_icon; } else { icon = open_icon;	}
 
 				if (el.starred == true) {
 					star = '<i class="fa fa-star" aria-hidden="true"></i>';

@@ -9,7 +9,6 @@
 	setConfigValue("todoist_max_tasks_completed", "");
 	setConfigValue("todoist_sort", "");
 
-
 	header("location: /config/");
 
 ?>
