@@ -11,25 +11,4 @@ $(document).ready(function() {
 		$("#todoist_lists").val(project);
 	});
 
-
-
-
-	// $.ajax({
-	// 	url: 'https://a.todoist.com/api/v1/lists',
-	// 	headers: {
-	// 			'X-Client-ID': client_id,
-	// 			'X-Access-Token': access_token
-	// 		},
-	// 	method: 'GET',
-	// 	dataType: 'json',
-	// 	success: function(data){
-	// 		console.log(data);
-	// 		$.each(data, function(index, el) {
-	// 			$("#todoist_lists").append("<option value='" + el.id + "'>" + el.title + "</option>");
-	// 			console.log(el.title);
-	// 		});
-	// 		$("#todoist_lists").val(list);
-	// 	}
-	// });
-
 });

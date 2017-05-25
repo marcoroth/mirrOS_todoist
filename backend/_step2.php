@@ -2,15 +2,6 @@
 	<option value="" disabled><?php echo _('todoist_select_list');?></option>
 </select>
 
-<!-- <input id="todoist_project" type="number" placeholder="<?php echo _('todoist_project');?>" value="<?php echo $todoist_project; ?>"/> -->
-
-
-<!-- <select id="todoist_include_completed">
-	<option value="" disabled><?php echo _('todoist_include_completed');?></option>
-	<option value="false" <?php if ($todoist_include_completed == "false"){ echo "selected"; } ?>><?php echo _('todoist_include_completed_no');?></option>
-	<option value="true"  <?php if ($todoist_include_completed == "true") { echo "selected"; } ?>><?php echo _('todoist_include_completed_yes');?></option>
-</select> -->
-
 <select id="todoist_sort">
 	<option value="" disabled><?php echo _('todoist_sort');?></option>
 	<option value="alphabetical"         <?php if ($todoist_sort == "alphabetical")        { echo "selected"; } ?>><?php echo _('todoist_sort_alphabetical');?></option>
@@ -27,10 +18,7 @@
 <input type="radio" name="todoist_icons" value="new" id="todoist_icons_old" <?php if ($todoist_icons == "new"){ echo "checked"; } ?>>
 <label for="todoist_icons_old"><?php echo _('todoist_icons_new');?> <i class="fa fa-circle" style="margin-left: 10px"></i> <i class="fa fa-check"></i></label><br><br />
 
-
 <input id="todoist_max_tasks" type="number" step="1" min="1" max="8" placeholder="<?php echo _('todoist_max_tasks');?>" value="<?php echo $todoist_max_tasks; ?>"/>
-
-<!-- <input id="todoist_max_tasks_completed" type="number" step="1" min="1" max="8" placeholder="<?php echo _('todoist_max_tasks_completed');?>" value="<?php echo $todoist_max_tasks_completed; ?>"/> -->
 
 <a href="/modules/todoist/assets/resetConfig.php">Reset Config</a><br /><br />
 

@@ -70,25 +70,6 @@ console.log(data.items)
 			i++;
 		});
 
-		// $.ajax({ url: 'https://a.todoist.com/api/v1/tasks?list_id=' + todoist_list + '&completed=' + true, headers: { 'X-Client-ID': todoist_client_id, 'X-Access-Token': todoist_access_token }, success: function(data){
-		//
-		// 	data.sort(sort_by('completed_at', true));
-		//
-		// 	i = 0;
-		// 	$.each(data, function(index, el) {
-		// 		$("#todoist_table").append("<tr></tr>");
-		//
-		// 		if (i < todoist_max_tasks_completed) {
-		//
-		// 			if (el.starred == true) {
-		// 				star = '<i class="fa fa-star" aria-hidden="true"></i>';
-		// 			} else { star = ""; }
-		//
-		// 			$("#todoist_table tr:last").append("<td><i class='" + "fa fa-check-square-o" + "' aria-hidden='true'></i></td><td>" + star + el.title + "</td>");
-		// 		}
-		// 		i++;
-		// 	});
-		//
 			// 	Ausgabe: X weitere Aufgaben
 			if (more_tasks_todoist != ""){
 				$("#todoist_table").append("<tr></tr>");

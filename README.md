@@ -23,7 +23,7 @@ Die Modul-Updates werden direkt via mirrOS-Backend installiert.
 ## Weitere Informationen
 * [Todoist-Modul](https://glancr.de/module/produktivitaet/todoist/)
 * [Glancr](https://glancr.de)
-* [mirrOS](https://glancr.de/#mirr_os)
+* [mirrOS](https://glancr.de/mirr-os/)
 
 
 ## Andere Module
