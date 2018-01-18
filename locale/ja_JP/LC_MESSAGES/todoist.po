@@ -1,0 +1,84 @@
+# mirr.OS Todoist Module v1.0.0
+# Copyright (C) 2016
+# Marco Roth <mr@glancr.de>, 2016
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS Todoist Module V1.0\n"
+"POT-Creation-Date: 2016-05-07 11:02+0200\n"
+"PO-Revision-Date: 2018-01-18 18:54+0100\n"
+"Last-Translator: Tobias Grasse <tg@glancr.de>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "todoist_title"
+msgstr "todoist"
+
+msgid "todoist_description"
+msgstr "このモジュールはtodoistからのタスクを表示します。"
+
+msgid "todoist_select_list"
+msgstr "todoistを選択:"
+
+msgid "todoist_include_completed"
+msgstr "終了したタスクを表示:"
+
+msgid "todoist_include_completed_yes"
+msgstr "Yes"
+
+msgid "todoist_include_completed_no"
+msgstr "No"
+
+msgid "todoist_more_tasks"
+msgstr "他のタスク"
+
+msgid "todoist_client_id"
+msgstr "Todoist ID"
+
+msgid "todoist_access_token"
+msgstr "Todoist アクセストークン"
+
+msgid "todoist_get_keys"
+msgstr "ここでキーを見つけることができます。（設定>統合> APIトークン）"
+
+msgid "todoist_sort"
+msgstr "並び替え:"
+
+msgid "todoist_sort_alphabetical"
+msgstr "アルファベット順に並び替え"
+
+msgid "todoist_sort_alphabetical_reverse"
+msgstr "アルファベット逆順に並び替え"
+
+msgid "todoist_sort_oldest"
+msgstr "作成日順に並べ替え（古い順）"
+
+msgid "todoist_sort_newest"
+msgstr "作成日順に並べ替え（新しい順）"
+
+msgid "todoist_sort_priority"
+msgstr "優先度別ソート（1-4）"
+
+msgid "todoist_max_tasks"
+msgstr "タスクの最大数"
+
+msgid "todoist_max_tasks_completed"
+msgstr "完了したタスクの数"
+
+msgid "todoist_icons"
+msgstr "Todoistのアイコン"
+
+msgid "todoist_icons_old"
+msgstr "アイコン Set 1"
+
+msgid "todoist_icons_new"
+msgstr "アイコン Set 2"
+
+msgid "todoist_save"
+msgstr "設定を保存"
