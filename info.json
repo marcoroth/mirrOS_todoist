@@ -1,18 +1,18 @@
 {
-	"module": {
-		"name": "Todoist",
-		"version": "1.0.0",
-		"description": "Zeigt deine Aufgaben aus Todoist an",
-		"module_url": "https://glancr.de/module/produktivitaet/todoist/",
-		"download_url": "https://api.glancr.de/update/moduleZips/todoist-1.0.0.zip",
-		"category": "produktivitaet",
-		"release_date": "2017-01-15",
-		"last_update": "2017-05-17"
-	},
-	"creator": {
-		"name": "Marco Roth",
-		"contact": "mr@glancr.de",
-		"website": "https://www.marco-roth.ch",
-		"profile": "https://www.glancr.de/entwickler/marco-roth"
-	}
+  "module": {
+    "name": "Todoist",
+    "version": "1.1.0",
+    "description": "Zeigt deine Aufgaben aus Todoist an",
+    "module_url": "https://glancr.de/module/produktivitaet/todoist/",
+    "download_url": "https://api.glancr.de/update/moduleZips/todoist-1.1.0.zip",
+    "category": "produktivitaet",
+    "release_date": "2017-01-15",
+    "last_update": "2019-09-17"
+  },
+  "creator": {
+    "name": "Marco Roth",
+    "contact": "mr@glancr.de",
+    "website": "https://www.marco-roth.ch",
+    "profile": "https://www.glancr.de/entwickler/marco-roth"
+  }
 }

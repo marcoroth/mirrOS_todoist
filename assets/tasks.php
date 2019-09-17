@@ -5,7 +5,7 @@
 	$todoist_project = getConfigValue("todoist_project");
 	$todoist_api_token = getConfigValue("todoist_api_token");
 
-	$url = "https://todoist.com/API/v7/projects/get_data?project_id=" . $todoist_project . "&token=" . $todoist_api_token;
+	$url = "https://api.todoist.com/sync/v8/projects/get_data?project_id=" . $todoist_project . "&token=" . $todoist_api_token;
 
 	$data = file_get_contents($url);
 
